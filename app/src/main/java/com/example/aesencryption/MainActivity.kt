@@ -3,8 +3,8 @@ package com.example.aesencryption
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.aesencryption.callbacks.CallBack
-import com.example.aesencryption.utility.Encryption
+import com.example.encryption.callbacks.CallBack
+import com.example.encryption.utility.Encryption
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
