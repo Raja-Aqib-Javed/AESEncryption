@@ -51,7 +51,6 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-
                 groupId = 'com.aes'
                 artifactId = 'encryption'
                 version = '1.0'
