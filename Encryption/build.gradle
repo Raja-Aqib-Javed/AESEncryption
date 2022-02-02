@@ -52,9 +52,14 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.Raja-Aqib-Javed'
-                artifactId = 'Encryption'
+                groupId = 'com.aes'
+                artifactId = 'encryption'
                 version = '1.0'
+            }
+        }
+        repositories {
+            maven {
+                url "https://jitpack.io"
             }
         }
     }
