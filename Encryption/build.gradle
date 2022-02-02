@@ -51,7 +51,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.Raja-Aqib-Javed'
-                artifactId = 'AESEncryption'
+                artifactId = 'Encryption'
                 version = '1.0'
             }
         }
