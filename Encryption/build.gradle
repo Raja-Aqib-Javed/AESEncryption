@@ -50,8 +50,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.aqib.encryption'
-                artifactId = 'aes-encryption'
+                groupId = 'com.github.Raja-Aqib-Javed'
+                artifactId = 'AESEncryption'
                 version = '1.0'
             }
         }
