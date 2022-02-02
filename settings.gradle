@@ -1,0 +1,2 @@
+rootProject.name = "AES Encryption"
+include ':app'
